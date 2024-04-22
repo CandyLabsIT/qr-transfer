@@ -1,6 +1,6 @@
 name: qr_transfer
 description: "QR transfer (CBOR + UR)"
-version: 0.0.1
+version: 0.0.2
 
 environment:
   sdk: ">=3.2.2"
@@ -10,9 +10,13 @@ dependencies:
   # https://pub.dev/packages/equatable
   equatable: 2.0.5
 
-  # Small, easy to use and extensible logger which prints beautiful logs.
-  # https://pub.dev/packages/logger
-  logger: 2.0.2+1
+  # CBOR library for Dart. An RFC8949 compliant encoding/decoding CBOR implementation.
+  # https://pub.dev/packages/cbor
+  cbor: 6.2.0
+
+  # Implementations of SHA, MD5, and HMAC cryptographic functions.
+  # https://pub:dev/packages/crypto
+  crypto: 3.0.3
 
 dev_dependencies:
   # A full featured library for writing and running Dart tests across platforms.
