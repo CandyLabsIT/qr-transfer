@@ -1,0 +1,20 @@
+name: qr_transfer
+description: "QR transfer (CBOR + UR)"
+version: 0.0.1
+
+environment:
+  sdk: ">=3.2.2"
+
+dependencies:
+  # A Dart package that helps to implement value based equality without needing to explicitly override == and hashCode.
+  # https://pub.dev/packages/equatable
+  equatable: 2.0.5
+
+  # Small, easy to use and extensible logger which prints beautiful logs.
+  # https://pub.dev/packages/logger
+  logger: 2.0.2+1
+
+dev_dependencies:
+  # A full featured library for writing and running Dart tests across platforms.
+  # https://pub.dev/packages/test
+  test: 1.25.5
